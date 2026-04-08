@@ -1,0 +1,39 @@
+{
+    "image_urls": {
+        "description": "图片源URL配置",
+        "type": "object",
+        "hint": "配置不同分类的图片API地址",
+        "items": {
+            "moe": {
+                "description": "萌图/二次元图片URL",
+                "type": "string",
+                "default": "https://t.alcy.cc/moe",
+                "hint": "随机萌图API接口"
+            },
+            "pc": {
+                "description": "电脑壁纸URL",
+                "type": "string",
+                "default": "https://t.alcy.cc/pc",
+                "hint": "电脑壁纸API接口"
+            },
+            "mobile": {
+                "description": "手机壁纸URL",
+                "type": "string",
+                "default": "https://t.alcy.cc/moemp4",
+                "hint": "手机壁纸API接口"
+            },
+            "acg": {
+                "description": "ACG图片URL",
+                "type": "string",
+                "default": "https://www.loliapi.com/acg/",
+                "hint": "ACG图片API接口"
+            }
+        }
+    },
+    "timeout": {
+        "description": "请求超时时间（秒）",
+        "type": "int",
+        "default": 30,
+        "hint": "API请求的超时时间，建议30-60秒"
+    }
+}
