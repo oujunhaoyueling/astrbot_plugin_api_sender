@@ -2,7 +2,7 @@ name: astrbot_plugin_api_sender
 desc: 从外部URL获取随机图片并发送到聊天中
 author: 月凌
 version: 1.0.0
-display_name: API Sender 随机图片插件
+display_name: API Sender
 support_platforms:
   - aiocqhttp
   - telegram
